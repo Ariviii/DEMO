@@ -26,5 +26,5 @@ def receive_sensor_data(data:Filename):
 
 
 if __name__ == "__main__":
-   uvicorn.run('FastAPI:app', host='localhost', port=9004, workers=2)    
-    #  uvicorn.run('main:app', host='0.0.0.0', port=9004, workers=2)
+   # uvicorn.run('FastAPI:app', host='localhost', port=9004, workers=2)    
+     uvicorn.run('main:app', host='0.0.0.0', port=9004, workers=2)
